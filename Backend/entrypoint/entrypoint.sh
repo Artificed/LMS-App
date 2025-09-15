@@ -8,8 +8,7 @@ echo "Generating Prisma client..."
 npx prisma generate
 
 echo "Running database seed script..."
-npm run seed
+npx prisma db seed
 
 echo "Starting the application..."
 npm run start
-
